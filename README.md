@@ -32,10 +32,10 @@ I want to view my bank statement with dates of deposits and withdrawals
 Class: Bank      
 
 ---
-Attributes: balance - variable 
+Attributes: amount
 
 ---
-Methods: deposit, withdraw
+Methods: deposit, withdraw, balance
 
 ---
 
