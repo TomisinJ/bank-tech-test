@@ -5,9 +5,11 @@ class Bank
     @balance = 0
   end
 
-
-  def statement
-    print @balance
+  def deposit(money)
+    @balance += money
   end
+  # def statement
+  #   print @balance
+  # end
 
 end

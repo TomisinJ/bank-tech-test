@@ -6,10 +6,19 @@ describe Bank do
     expect(subject.balance).to eq 0
   end
 
-  describe '#statement' do
-    it 'can view the bank balance' do
-      expect(subject.statement).to eq @balance
+  describe '#deposit' do
+    it 'can add money to the balance' do
+      bank = Bank.new
+      bank.balance
+      expect(subject.deposit(1)).to eq 1
     end
   end
 
 end
+
+
+  # describe '#statement' do
+  #   it 'can view the bank balance' do
+  #     expect(subject.statement).to eq @balance
+  #   end
+  # end
