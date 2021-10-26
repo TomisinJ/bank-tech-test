@@ -5,4 +5,9 @@ class Bank
     @balance = 0
   end
 
+
+  def statement
+    print @balance
+  end
+
 end

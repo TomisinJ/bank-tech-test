@@ -6,4 +6,10 @@ describe Bank do
     expect(subject.balance).to eq 0
   end
 
+  describe '#statement' do
+    it 'can view the bank balance' do
+      expect(subject.statement).to eq @balance
+    end
+  end
+
 end
