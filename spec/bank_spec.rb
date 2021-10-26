@@ -6,9 +6,4 @@ describe Bank do
     expect(subject.balance).to eq 0
   end
 
-  # it 'shows the user their balance' do
-  #   bank = Bank.new
-  #   expect(bank.balance).to eq 20
-  # end
-
 end

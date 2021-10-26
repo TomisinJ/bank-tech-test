@@ -7,8 +7,8 @@
 MVP:
 
 As a user, 
-So that I know how much money I have
-I want to view my bank balance
+So that I know my bank balance
+I want to view my statement
 
 As a user,
 So that I can save my money
@@ -32,10 +32,10 @@ I want to view my bank statement with dates of deposits and withdrawals
 Class: Bank      
 
 ---
-Attributes: amount
+Attributes: balance
 
 ---
-Methods: deposit, withdraw, balance
+Methods: deposit, withdraw, view
 
 ---
 
