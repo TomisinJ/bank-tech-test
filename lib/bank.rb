@@ -8,6 +8,11 @@ class Bank
   def deposit(money)
     @balance += money
   end
+
+  def withdraw(money)
+    @balance -= money
+  end
+  
   # def statement
   #   print @balance
   # end

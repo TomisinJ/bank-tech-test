@@ -14,6 +14,13 @@ describe Bank do
     end
   end
 
+  describe '#withdraw' do
+    it 'can remove money from the balance' do
+      bank = Bank.new
+      expect{subject.withdraw(1)}.to change {subject.balance}.by -1
+    end
+  end
+
 end
 
 
