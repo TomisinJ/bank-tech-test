@@ -22,6 +22,10 @@ I want to withdraw money
 Additional User Stories:
 
 As a user,
+So that I can keep track of my transactions,
+I want to know the date of the transaction (withdrawal or deposit)
+
+As a user,
 So that I know how much money I have,
 I want my bank balance to be updated
 
