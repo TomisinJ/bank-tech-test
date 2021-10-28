@@ -12,9 +12,14 @@ class Bank
   def withdraw(money)
     @balance -= money
   end
-  
-  # def statement
-  #   print @balance
+
+  # def date
+  #   t = Time.now
+  #   t.strftime("%d/%m/%y")
   # end
 
 end
+
+  # def statement
+  #   print @balance
+  # end

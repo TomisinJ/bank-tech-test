@@ -8,7 +8,7 @@ MVP:
 
 As a user, 
 So that I know my bank balance
-I want to view my statement
+I want to view my balance
 
 As a user,
 So that I can save my money
@@ -52,3 +52,10 @@ Potential attributes: credit? - boolean (debit = false)
 Methods:
 
 ---
+
+TO DO:
+
+- refactoring (use a before block in rspec tests)
+- arrange all transactions into a statement array
+- use .join("||") to present data in the required format
+- use date.now and associate this with each transaction

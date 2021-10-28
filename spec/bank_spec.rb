@@ -21,11 +21,17 @@ describe Bank do
     end
   end
 
-end
+  # it 'shows the date of each transaction' do
+  #   bank = Bank.new
+  #   bank.deposit(5)
+  #   bank.date
+  #   expect(subject.date).to include(t.strftime("%d/%m/%y"))
+  # end
 
+end
 
   # describe '#statement' do
   #   it 'can view the bank balance' do
-  #     expect(subject.statement).to eq @balance
+  #     expect(subject.statement).to include(subject.balance, subject.date ...)
   #   end
   # end
